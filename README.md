@@ -1,6 +1,7 @@
 ### MangaScan scraping
-#### per utilizzare il programma 
-1. scaricare il main
-2. inserire l'url della pagina del manga in questo modo ./main.py manga_url <url manga> 
-3. eseguire il programma che in modo autonomo andrà a scaricare l'intero manga
-#### NB. usando il parametro --max-workers <nuemro>, si modificano il numero di capitoli che si lavorano in contemporanea, se hai una macchina con poca potenza è consigliabile modificarlo e mettere una valore basso per non rischiare il blocco del sistema e dover riavviare, meno worker si hanno e più velocemente sarà il processo
+#### How to use 
+1. download the repos
+2. run the program like that ./main.py manga_url <ur_manga> 
+3. the program start to download the all manga for you
+4. the program create the .cbz file when it's finished and closes automaticaly 
+#### NB. using the parameter --max-workers <number>, you modify the number of chapters you're working on at the same time, if you have a weak machine is recommended to choose a low value to not risk the system freeze and having to restart, more wokers you have, faster is the process
